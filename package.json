@@ -11,6 +11,9 @@
   "scripts": {
     "test": "node tests.js"
   },
+  "bin": {
+    "testy": "bin/runTesty.sh"
+  },
   "files": [
     "testy.js",
     "lib"

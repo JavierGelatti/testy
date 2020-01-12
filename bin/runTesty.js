@@ -1,6 +1,8 @@
+#!/usr/bin/env node
+
 'use strict';
 
-const { Testy } = require('./testy');
+const { Testy } = require('../testy');
 
 const testFile = process.argv[2];
 
